@@ -6,5 +6,5 @@ cs install scala3-compiler
 cs install scala
 echo "Testing example program"
 cd ..
-scala3-compiler testscala.scala
-scala testscala
+scala3-compiler testInstallation.scala
+scala testInstallation
