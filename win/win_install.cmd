@@ -7,4 +7,4 @@ cs install scala
 echo "Testing example program"
 cd ..
 scala3-compiler testInstallation.scala
-scala testInstallation
+scala testInstall

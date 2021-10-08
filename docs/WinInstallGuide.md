@@ -2,49 +2,65 @@
 
 **Pre-reqs**
 
-1. Admin rights on your Windows machine
-
-   
-
+- Admin rights on your Windows machine
+- Make sure you have JDK. Download it [here](https://www.oracle.com/java/technologies/downloads/#java8) if you need it
 
 
-1. Run `cmd.exe` as an Adminstrator
 
-2. Clone this repository:
 
-   ```powershell
-   git clone git@github.com:abhivemp/scalaA.git
+
+1. Run `cmd.exe` as an Administrator
+
+2. Run 
+
+   ```
+   choco install sbt
    ```
 
-   *Note: If you don't have your github ssh key installed, you can clone the repo via https* like this
+   Alternatively, you can download the installer [here](https://www.scala-sbt.org/download.html)
 
-   ```powershell
-   git clone https://github.com/abhivemp/scalaA.git
+3. You've installed Scala! Check by doing 
+
+   ```
+   sbt --version
    ```
 
-   
+   At the time of this doc creation, you should get
 
-3. `cd` to the directory of the script
-
-   ```powershell
-   cd scalaA/win
    ```
-
-4. Run the windows script
-
-   ```powershell
-   win_install.cmd
-   ```
-
-5. make sure you see a successful message install
-
-6. Remove the repo
-
-   ```powershell
-   cd ..
-   cd ..
-   rm scalaA/
+   sbt version in this project: 1.5.5
+   sbt script version: 1.5.5 
    ```
 
    
+
+
+
+## Create and Run a Project
+
+Your assignment requires you to submit a zip file of your Scala project.
+
+1. Open your `cmd.exe`
+
+2. Navigate to your desired directory
+
+3. Run
+
+   ```
+   sbt new scala/scala3.g8
+   ```
+
+4. You'll be prompted to enter in your project name, say "my_project"
+5. Navigate to your project's directory (`cd my_project`)
+6. You can code in  will be in`src/main/scala` and edit `main.scala`
+
+### Compile and Run your project
+
+```
+sbt run
+```
+
+You'll be greeted by the test program. 
+
+You can simply replace the contents of `main.scala` with the template you have been provided with and work on your solution.
 
