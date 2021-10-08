@@ -23,7 +23,37 @@
 
 ## Linux
 
+Please see sbt's docs here based on your Linux distribution (deb and rpm based)
+
+If you use Arch, check out the sbt docs [here](https://archlinux.org/packages/community/any/sbt/). You can install it via `pacman`
+
 
 
 ## Build and Run [On Both Platforms]
+
+Your assignment requires you to submit a zip file of your Scala project.
+
+1. Open your terminal
+
+2. Navigate to your desired directory
+
+3. Run
+
+   ```
+   sbt new scala/scala3.g8
+   ```
+
+4. You'll be prompted to enter in your project name, say "my_project"
+5. Navigate to your project's directory (`cd my_project`)
+6. You can code in  will be in`src/main/scala` and edit `main.scala`
+
+### Compile and Run your project
+
+```
+sbt run
+```
+
+You'll be greeted by the test program. 
+
+You can simply replace the contents of `main.scala` with the template you have been provided with and work on your solution.
 
