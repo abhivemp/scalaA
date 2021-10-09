@@ -23,9 +23,15 @@
 
 ## Linux
 
-Please see sbt's docs here based on your Linux distribution (deb and rpm based)
+Please see sbt's docs here based on your Linux distribution ([deb](https://www.scala-sbt.org/1.x/docs/Installing-sbt-on-Linux.html#Ubuntu+and+other+Debian-based+distributions) and [rpm](https://www.scala-sbt.org/1.x/docs/Installing-sbt-on-Linux.html#Red+Hat+Enterprise+Linux+and+other+RPM-based+distributions) based)
 
-If you use Arch, check out the sbt docs [here](https://archlinux.org/packages/community/any/sbt/). You can install it via `pacman`
+If you use Arch, check out the sbt docs [here](https://archlinux.org/packages/community/any/sbt/). You can install it via `pacman` like
+
+```bash
+pacman -S sbt
+```
+
+
 
 
 

@@ -1,4 +1,5 @@
-# scalaA
-Installation Scripts and Resources for Scala lang 
+# ScalaA
+> Installation Scripts and Resources for Scala3 lang
+>
 
-remove space from compiler
+This repo is for TCNJ's CSC 435 Programming Languages course. 
