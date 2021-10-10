@@ -1,0 +1,6 @@
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: C:\Users\Admin\Desktop\TCNJ\Academics\4_Senior\CSC435\ScalaA\scalaA\sbt_example\src\main\scala\Main.scala:36:1 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m36 |[0m}[33mimport[0m scala.collection.mutable.ArrayBuffer[0m
+[0m[[0m[31merror[0m] [0m[0m   | [31m^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   | end of toplevel definition expected but 'import' found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
