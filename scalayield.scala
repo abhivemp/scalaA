@@ -14,7 +14,5 @@ object scalayield {
             yield
                 count = count + 1
         ).to(ArrayBuffer)
-    
-    println(count)
-    println(retVal)
+      
 }

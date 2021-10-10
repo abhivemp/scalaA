@@ -35,7 +35,7 @@ pacman -S sbt
 
 
 
-## Build and Run [On Both Platforms]
+## Create a sbt Scala Project[On Both Platforms]
 
 Your assignment requires you to submit a zip file of your Scala project.
 
