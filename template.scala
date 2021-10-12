@@ -8,6 +8,7 @@ object matrixManipulation {
 
         ****IMPORTANT NOTE*****
         Indentation Matters. This is one massive code block so you'll have to partition this off     
+	
 	***********************
 
         ---Section 1---
