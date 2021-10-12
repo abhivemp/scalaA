@@ -7,7 +7,8 @@ object matrixManipulation {
         Your code Here
 
         ****IMPORTANT NOTE*****
-        Indentation Matters    
+        Indentation Matters. This is one massive code block so you'll have to partition this off     
+	***********************
 
         ---Section 1---
         Take in the dimensions for M1 (rows followed by columns)
