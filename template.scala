@@ -27,7 +27,7 @@ object matrixManipulation {
 
         ---Section 4---
         Create a new ArrayBuffer that will hold the scalar 
-        multiplication of m2 with the user specified multiplier
+        multiplication of m1 with the user specified multiplier
 
         ---Section 5---
         Create a new ArrayBuffer that will hold the addition of 
